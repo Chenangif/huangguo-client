@@ -52,6 +52,7 @@ env_probe.txt
 site_probe.txt
 build_log.txt
 launch_test.txt
+login_out.txt
 
 # ============ 系统 / 本地工作区 ============
 .DS_Store
