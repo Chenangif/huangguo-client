@@ -1,0 +1,7 @@
+# 运行源码所需依赖
+pycryptodome>=3.15
+Pillow>=9.0
+pywebview>=5.0
+
+# 仅当你要打包成单文件 exe 时才需要（见 build_exe.bat）：
+# pyinstaller>=6.0

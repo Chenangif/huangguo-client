@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Huangguo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#FFB300</item>
+        <item name="colorPrimaryVariant">#FF8F00</item>
+        <item name="colorSecondary">#FF4081</item>
+        <item name="colorSecondaryVariant">#F50057</item>
+        <item name="android:colorAccent">#FF4081</item>
+        <item name="android:windowBackground">#F5F5F5</item>
+        <item name="android:statusBarColor">#FF8F00</item>
+    </style>
+</resources>

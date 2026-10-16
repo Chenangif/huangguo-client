@@ -1,0 +1,60 @@
+# ============ 构建产物 ============
+build/
+dist/
+out/
+*.spec
+*.exe
+*.apk
+*.aab
+*.pyz
+
+# ============ 运行时数据 / 缓存 / 个人数据 ============
+cache/
+config.json
+data.json
+progress_live.json
+downloads/
+黄果短剧/
+*.mp4
+*.ts
+*.m3u8
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+venv/
+.venv/
+*.bak*
+.hypothesis/
+.pytest_cache/
+
+# ============ Android / Gradle ============
+android/local.properties
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/captures/
+android/.externalNativeBuild/
+*.iml
+*.hprof
+.gradle/
+.idea/
+
+# ============ 调试抓取的原始页面（第三方内容，不入库）============
+tests/fixtures/site_debug/*.html
+tests/fixtures/site_debug/*.json
+tests/fixtures/site_debug/*.png
+site_debug2/
+env_probe.txt
+site_probe.txt
+build_log.txt
+launch_test.txt
+
+# ============ 系统 / 本地工作区 ============
+.DS_Store
+.workbuddy/
+Thumbs.db
+desktop.ini
